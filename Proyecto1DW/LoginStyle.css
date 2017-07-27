@@ -1,0 +1,11 @@
+﻿body {color: white; font-family: Georgia, Times; padding-left:11em; background-color: #031c94}
+h3 {font-family:Helvetic, Geneva, Arial; padding-top:2em}
+ul.navbar {
+    position: absolute;
+    top: 12em;
+    left: 1m;
+    width: 1em;
+    padding:0;  
+    margin:0}
+ul.navbar li {background:white; margin:0.5em; padding:0.3 em; border-right: 1em solid black}
+ul.nabbar a {text-decoration: none}
