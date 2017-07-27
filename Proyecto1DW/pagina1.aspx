@@ -5,10 +5,8 @@
     <title>Proyecto 1</title>
     <style type ="text/css">
         body {color: white; font-family: Georgia, Times; padding-left:2em; background-color: blue}
-h3 {color: blue; text-align:center; Georgia, Times; padding-left:1em; background-color: cyan;}
+h3 {color: blue; text-align:center; font-family: Georgia, Times; padding-left:1em; background-color: cyan;}
 
-ul.navbar li {background:white; margin:0.5em; padding:0.3 em; border-right: 1em solid white}
-ul.nabbar a {text-decoration: none}
 </style>
 </head>
      <!-- Encabezado -->
@@ -21,20 +19,11 @@ ul.nabbar a {text-decoration: none}
         <br />
     </form>
 
-<body>
+<body background="fondo2.jpg">
 
-    <li> Bienvenidos a la pagina </li>
+    <h2> <img src="like.png" width="75" height="75"> Bienvenidos a la pagina web de Levi</h2><br />
 
- <!-- Funcion contraseña -->
-  <a href="javascript:abrir('log.aspx')"><button>Logearse</button></a> 
-    <br /> <br />
-
-     <script>
-		    function abrir(url) {
-		        open(url, '', 'top=300,left=300,width=300,height=300'); 
-		    }
-</script> 
-	
+ 
       <!-- Funcion fecha y hora -->
 
      <script languaje="JavaScript">
@@ -51,9 +40,17 @@ ul.nabbar a {text-decoration: none}
          var montharray = new Array("Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre")
          document.write(dayarray[day] + " " + daym + " de " + montharray[month] + " de " + year)
 </script><br /><br /><br />
+    
+    <!-- Funcion contraseña -->
+   
+   <a href="javascript:abrir('log.aspx')"> <button>Logearse</button> </a>
+    <br /> <br />
 
-
-      <!-- Funcion Fibonacci -->
+     <script>
+         function abrir(url) {
+             open(url, '', 'top=200,left=300,width=900,height=400');
+         }
+</script> 
 
       <!-- Funcion conteo de caracteres -->
 
@@ -93,8 +90,17 @@ ul.nabbar a {text-decoration: none}
 </form><br /><br /><br />
 
       <!-- Funcion captura de texto -->
+        <h3>FUNCION DE CAPTURA DE UN TEXTO</h3>
 
 
+    
+      <!-- Funcion Fibonacci -->
+    <h3>FUNCION DE CAPTURA DE UN TEXTO</h3>
+
+    
+
+          <!-- Funcion de dos parametros -->
+    <h3>FUNCION DE CAPTURA DE DOS PARAMETROS</h3>
 
 
 </body>
@@ -104,7 +110,7 @@ ul.nabbar a {text-decoration: none}
     <br /> <br /> 
        
     <hr style="color:green; background-color:green; width:50%;"</hr> <br />
-        <div id="footer"><p style="text-align: center;font-size: 20px; border: 2px solid green; color: gray">
+        <div id="footer"><p style="text-align: center;font-size: 20px; border: 2px solid green; color: white">
              PAGINA DESARROLLADA POR:
             <br />   Gabriel Ortiz      0900-11-8756
             <br />   Levi Aguilar       0900-11-8733
